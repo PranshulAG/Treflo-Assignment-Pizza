@@ -1,0 +1,11 @@
+.middle-container {
+  min-height: 400px;
+  background-color: #f5f8f8;
+  height: 500px;
+  display: flex;
+}
+
+.parent-container {
+  width: 100vw;
+  max-width: 100vw;
+}

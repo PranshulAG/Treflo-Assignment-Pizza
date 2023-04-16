@@ -1,0 +1,11 @@
+.menu-list{
+    width : 30%;
+    margin: 10px 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.menu-card > p:not(.menu-card-title) {
+    padding: 10px;
+    color: #313030;
+    font-weight: 500;
+}

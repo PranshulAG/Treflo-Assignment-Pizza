@@ -1,0 +1,48 @@
+.popup-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: rgba(252, 252, 252, 0.468);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .popup-content-container {
+        background-color: #FFFFFF;
+        width: 50%;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .close-icon-container {
+        margin-left: auto;
+        width: 40px;
+        cursor: pointer;
+    }
+
+    .options-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        .size-option-container,
+        .topping-option-container {
+            .input-container {
+                display: block;
+                position: relative;
+                margin-bottom: 12px;
+                cursor: pointer;
+                font-size: 18px;
+                user-select: none;
+            }
+      
+        }
+    }
+}
+.size-option-container div, .topping-option-container div {
+    font-size: 12px;
+    margin-top: 12px;
+}

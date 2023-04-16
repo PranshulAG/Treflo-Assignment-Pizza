@@ -1,0 +1,48 @@
+.cartCardContainer{
+    width: 100%;
+    margin: 10px 10px;
+    display: flex;
+    align-content: center;
+    border: 1px solid #ded9d9;
+    border-radius: 5px;
+    .image-container{
+        .cart-card-img{
+            width: 150px;
+        }
+    }
+    .contentcontainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.contentcontainer .list-container {
+    width: 100px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+}
+.quantity-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity-container svg {
+    padding: 10px;
+}
+@media only screen and (max-width: 986px) {
+    .cartCardContainer .contentcontainer {
+        flex-direction: column;
+    }
+    .cartCardContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .menu-card-title {
+        width: 100%;
+    }
+}
